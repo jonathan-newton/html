@@ -20,7 +20,7 @@ function STARTERKIT_form_system_theme_settings_alter(&$form, &$form_state, $form
     '#type'          => 'checkbox',
     '#title'         => t('STARTERKIT sample setting'),
     '#default_value' => theme_get_setting('STARTERKIT_example'),
-    '#description'   => t("This option doesn't do anything; it's just an example."),
+    '#description'   => t("This option doesn't do anything; it's just an example."), 
   );
   // */
 

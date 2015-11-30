@@ -130,3 +130,21 @@ function STARTERKIT_preprocess_block(&$variables, $hook) {
   //}
 }
 // */
+/**
+* hook_form_FORM_ID_alter
+*/
+
+
+function gcls_form_search_block_form_alter(&$form, &$form_state, $form_id) {
+    $form['search_block_form']['#title'] = t('Search'); // Change the text on the label element
+    $form['search_block_form']['#title_display'] = 'invisible'; // Toggle label visibilty
+    $form['search_block_form']['#default_value'] = t(''); // Set a default value for the textfield
+    $form['actions']['submit']['#value'] = t('Search'); // Change the text on the submit button
+    
+    // Prevent user from searching the default text
+    $form['#attributes']['onsubmit'] = "if(this.search_block_form.value==''){ alert('Please enter a search'); return false; }";
+
+    // Alternative (HTML5) placeholder attribute instead of using the javascript
+    $form['search_block_form']['#attributes']['placeholder'] = t('Search');
+} 
+?>

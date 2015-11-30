@@ -1702,7 +1702,7 @@ tr.selected td {
 /* line 803, ../sass/components/_misc.scss */
 .progress .filled {
   background-color: #0072b9;
-  background-image: url('../images/progress.gif?1445957862');
+  background-image: url('../images/progress.gif?1448306596');
 }
 
 /**
@@ -1827,47 +1827,52 @@ h3 {
   font-size: 1.33em;
 }
 
+/* line 57, ../sass/styles.scss */
+.nodisplay {
+  display: none;
+}
+
 /*FOOTER AND HEADER STYLES */
-/* line 58, ../sass/styles.scss */
+/* line 63, ../sass/styles.scss */
 #footer, #header {
   background-color: #E2E1E9;
 }
 
-/* line 62, ../sass/styles.scss */
+/* line 67, ../sass/styles.scss */
 #footer div, #header div {
   display: inline-block;
   padding: 0.5em;
   vertical-align: top;
-  color: #808080;
+  color: #2f4f4f;
 }
 
-/* line 70, ../sass/styles.scss */
+/* line 75, ../sass/styles.scss */
 #header .socialmedia {
   float: right;
 }
 
-/* line 74, ../sass/styles.scss */
+/* line 79, ../sass/styles.scss */
 #footer .socialmedia p, #header .socialmedia p {
   margin: 0;
   padding: 0.5em;
 }
 
-/* line 79, ../sass/styles.scss */
+/* line 84, ../sass/styles.scss */
 #footer .socialmedia a, #header .socialmedia a {
   padding-right: 0.75em;
 }
 
-/* line 83, ../sass/styles.scss */
+/* line 88, ../sass/styles.scss */
 #footer .socialmedia .icons a, #header .socialmedia .icons a {
   padding-right: 0.25em;
 }
 
-/* line 87, ../sass/styles.scss */
+/* line 92, ../sass/styles.scss */
 .socialmedia {
   position: relative;
 }
 
-/* line 91, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 .newsbutton {
   font-family: "Lato", Georgia, sans-serif;
   font-weight: normal;
@@ -1882,38 +1887,48 @@ h3 {
   height: 28px;
 }
 
-/* line 98, ../sass/styles.scss */
+/* line 103, ../sass/styles.scss */
 .nlink {
-  display: inline-block;
+  display: block;
   vertical-align: top;
 }
 
-/* line 103, ../sass/styles.scss */
+/* line 108, ../sass/styles.scss */
 .icons {
   display: inline-block;
   height: 28px;
   padding-right: 10px;
 }
 
-/* line 109, ../sass/styles.scss */
+/* line 114, ../sass/styles.scss */
 .icons a {
   padding-right: 3px;
 }
 
-/* line 113, ../sass/styles.scss */
+/* line 118, ../sass/styles.scss */
+.fhours {
+  margin-left: 1.5em;
+}
+
+/* line 122, ../sass/styles.scss */
+.address {
+  margin: auto;
+}
+
+/* line 126, ../sass/styles.scss */
 .logo {
-  height: 75px;
+  height: 70px;
   padding-left: 1em;
   padding-top: 0.5em;
 }
 
-/* line 119, ../sass/styles.scss */
+/* line 132, ../sass/styles.scss */
 #header .catlinks {
   padding-left: 8em;
   padding-top: 2.5em;
 }
 
-/* line 124, ../sass/styles.scss */
+/* line 137, ../sass/styles.scss */
 .myaccount, .catsearch {
   font-family: "Lato", Georgia, sans-serif;
   font-weight: normal;
