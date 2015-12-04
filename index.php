@@ -19,3 +19,6 @@ define('DRUPAL_ROOT', getcwd());
 require_once DRUPAL_ROOT . '/includes/bootstrap.inc';
 drupal_bootstrap(DRUPAL_BOOTSTRAP_FULL);
 menu_execute_active_handler();
+
+// require_once 'includes/password.inc';
+// echo user_hash_password('mynewpassword'); die();

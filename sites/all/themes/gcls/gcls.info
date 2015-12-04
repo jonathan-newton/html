@@ -62,13 +62,9 @@ stylesheets[all][] = css/styles.css
 ; conditional stylesheets module: https://drupal.org/project/conditional_styles
 ;stylesheets-conditional[lte IE 8][all][] = css/ie8.css
 
-
-
 ; Optionally add some JavaScripts to your theme.
 
 scripts[] = templates/catsearch.js
-
-
 
 ; This section lists the regions defined in Zen's default page.tpl.php and
 ; maintenance-page.tpl.php files. The name in brackets is the machine name of
@@ -91,7 +87,7 @@ regions[highlighted]    = Highlighted
 regions[help]           = Help
 regions[content]        = Content
 regions[sidebar_first]  = First sidebar
-regions[sidebar_second] = Second sidebar
+; regions[sidebar_second] = Second sidebar
 regions[footer]         = Footer
 regions[bottom]         = Page bottom
 
