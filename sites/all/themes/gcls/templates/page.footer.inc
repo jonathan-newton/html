@@ -6,6 +6,8 @@
  * Complete documentation for this file is available online.
  * @see https://drupal.org/node/1728140
  */
+
+global $base_url;
 ?>
 <footer id="footer" class="<?php print $classes; ?>">
 
@@ -54,11 +56,11 @@
   <div>
     <div class="icons">
     <br><br>
-		  <a href="http://www.facebook.com/greenvillelibrary" target="_blank"><img alt="Facebook" src="sites/all/themes/gcls/images/face.png"></a>
-      <a href="http://twitter.com/GCLSLibrary" target="_blank"><img alt="Twitter" src="sites/all/themes/gcls/images/twit.png"></a>
-      <a href="http://www.youtube.com/user/GreenvilleLibrary" target="_blank"><img alt="YouTube" src="sites/all/themes/gcls/images/yout.png"></a>
-      <a href="http://pinterest.com/gcls/" target="_blank"><img alt="Pinterest" src="sites/all/themes/gcls/images/pin.png"></a>
-      <a href="http://instagram.com/greenvillelibrary" target="_blank"><img alt="Instagram" src="sites/all/themes/gcls/images/insta.png"></a>
+		  <a href="http://www.facebook.com/greenvillelibrary" target="_blank"><img alt="Facebook" src="<?php print $base_url; ?>/sites/all/themes/gcls/images/face.png"></a>
+      <a href="http://twitter.com/GCLSLibrary" target="_blank"><img alt="Twitter" src="<?php print $base_url; ?>/sites/all/themes/gcls/images/twit.png"></a>
+      <a href="http://www.youtube.com/user/GreenvilleLibrary" target="_blank"><img alt="YouTube" src="<?php print $base_url; ?>/sites/all/themes/gcls/images/yout.png"></a>
+      <a href="http://pinterest.com/gcls/" target="_blank"><img alt="Pinterest" src="<?php print $base_url; ?>/sites/all/themes/gcls/images/pin.png"></a>
+      <a href="http://instagram.com/greenvillelibrary" target="_blank"><img alt="Instagram" src="<?php print $base_url; ?>/sites/all/themes/gcls/images/insta.png"></a>
 	  </div>
     
     <div class="nlink">

@@ -6,11 +6,13 @@
  * Complete documentation for this file is available online.
  * @see https://drupal.org/node/1728140
  */
+
+global $base_url;
 ?>
 
 <script>
 function searchweb(){
-var web = "sites/all/themes/gcls/templates/googlesearch.html?cx=007642714936430497779:o72wnea07-g&q=";
+var web = "<?php print $base_url; ?>/sites/all/themes/gcls/templates/googlesearch.html?cx=006515734472246122058:9strqy7k3he-g&q=";
 var sbox1 = document.form1.encoreSearchInput.value;
 
 var result1 = web + sbox1;
@@ -23,7 +25,7 @@ return false;
 <header id="header" class="<?php print $classes; ?>">
   
 <div >
-  	<a href="#"><img class="logo" alt="GCLS logo" src="sites/all/themes/gcls/images/Logo2016.png"></a>
+  	<a href="#"><img class="logo" alt="GCLS logo" src= "<?php print $base_url; ?>/sites/all/themes/gcls/images/Logo2016.png"></a>
 </div>
 
 <div>
