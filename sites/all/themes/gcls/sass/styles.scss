@@ -89,41 +89,23 @@ h3 {
 	color:#FFF;
 }
 
-#header .socialmedia {
-	float:right;
-}
-
-#footer .socialmedia p, #header .socialmedia p {
-	margin:0;
-	padding:0.5em;
-}
-
-#footer .socialmedia a, #header .socialmedia a {
-	padding-right:0.75em;
-}
-
-#footer .socialmedia .icons a, #header .socialmedia .icons a {
-	padding-right:0.25em;
-}
-
 #footer div .address {
 	color:#D3EEF4;
 }
 
-.socialmedia {
-	position: relative;
-    }
+.logo {
+	height:70px;
+	padding-left: 1em;
+	padding-top: 0.5em;
+}
 
-.newsbutton {
-	@include regularfont;
+#header .catlinks {
+	padding-left:8em;
+	padding-top:2.5em;
+}
+
+.myaccount, .catsearch {
 	@include gclsbutton;
-	width:150px;
-	height: 28px;
-	}
-
-.nlink {
-	display: block;
-	vertical-align: top;
 }
 
 .footerlinks {
@@ -143,19 +125,4 @@ h3 {
 
 .fhours {
 	margin-left:5em;
-}
-
-.logo {
-	height:70px;
-	padding-left: 1em;
-	padding-top: 0.5em;
-}
-
-#header .catlinks {
-	padding-left:8em;
-	padding-top:2.5em;
-}
-
-.myaccount, .catsearch {
-	@include gclsbutton;
 }

@@ -1868,94 +1868,24 @@ h3 {
 }
 
 /* line 92, ../sass/styles.scss */
-#header .socialmedia {
-  float: right;
-}
-
-/* line 96, ../sass/styles.scss */
-#footer .socialmedia p, #header .socialmedia p {
-  margin: 0;
-  padding: 0.5em;
-}
-
-/* line 101, ../sass/styles.scss */
-#footer .socialmedia a, #header .socialmedia a {
-  padding-right: 0.75em;
-}
-
-/* line 105, ../sass/styles.scss */
-#footer .socialmedia .icons a, #header .socialmedia .icons a {
-  padding-right: 0.25em;
-}
-
-/* line 109, ../sass/styles.scss */
 #footer div .address {
   color: #D3EEF4;
 }
 
-/* line 113, ../sass/styles.scss */
-.socialmedia {
-  position: relative;
-}
-
-/* line 117, ../sass/styles.scss */
-.newsbutton {
-  font-family: "Lato", Georgia, sans-serif;
-  font-weight: normal;
-  font-family: "Lato", Georgia, sans-serif;
-  font-weight: normal;
-  background-color: #0084CB;
-  text-decoration: none;
-  color: #fff;
-  border: none;
-  cursor: pointer;
-  width: 150px;
-  height: 28px;
-}
-
-/* line 124, ../sass/styles.scss */
-.nlink {
-  display: block;
-  vertical-align: top;
-}
-
-/* line 129, ../sass/styles.scss */
-.footerlinks {
-  float: right;
-  margin-right: 5em;
-}
-
-/* line 134, ../sass/styles.scss */
-.icons {
-  display: inline-block;
-  height: 28px;
-  margin-left: 0.75em;
-}
-
-/* line 140, ../sass/styles.scss */
-.icons a {
-  padding-right: 1em;
-}
-
-/* line 144, ../sass/styles.scss */
-.fhours {
-  margin-left: 5em;
-}
-
-/* line 148, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 .logo {
   height: 70px;
   padding-left: 1em;
   padding-top: 0.5em;
 }
 
-/* line 154, ../sass/styles.scss */
+/* line 102, ../sass/styles.scss */
 #header .catlinks {
   padding-left: 8em;
   padding-top: 2.5em;
 }
 
-/* line 159, ../sass/styles.scss */
+/* line 107, ../sass/styles.scss */
 .myaccount, .catsearch {
   font-family: "Lato", Georgia, sans-serif;
   font-weight: normal;
@@ -1964,4 +1894,27 @@ h3 {
   color: #fff;
   border: none;
   cursor: pointer;
+}
+
+/* line 111, ../sass/styles.scss */
+.footerlinks {
+  float: right;
+  margin-right: 5em;
+}
+
+/* line 116, ../sass/styles.scss */
+.icons {
+  display: inline-block;
+  height: 28px;
+  margin-left: 0.75em;
+}
+
+/* line 122, ../sass/styles.scss */
+.icons a {
+  padding-right: 1em;
+}
+
+/* line 126, ../sass/styles.scss */
+.fhours {
+  margin-left: 5em;
 }

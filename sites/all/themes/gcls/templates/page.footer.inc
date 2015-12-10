@@ -19,14 +19,14 @@ global $base_url;
 <div class="fhours">
   <div>
     Hughes Main Hours:<br>
-    Mon-Fri: 9am-9pm<br>
-    Sat: 9am-6pm<br>
-    Sun: 2pm-6pm
+    Mon-Fri <b>&middot;</b> 9am-9pm<br>
+    Sat <b>&middot;</b> 9am-6pm<br>
+    Sun <b>&middot;</b> 2pm-6pm
   </div>
   <div>
     Branch Hours:<br>
-    Mon-Thurs: 9am-9pm<br>
-    Fri-Sun: 9am-6pm
+    Mon-Thurs <b>&middot;</b> 9am-9pm<br>
+    Fri-Sun <b>&middot;</b> 9am-6pm
     <br> 
   </div>
   <br>
