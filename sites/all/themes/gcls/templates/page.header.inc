@@ -22,8 +22,9 @@ return false;
 }
 </script>
 
-<div>
+<div class="bluebar">
   <?php print render($page['header']); ?>
+  <button class="myaccount">My Account</button>
 </div>
 
 <header id="header" class="<?php print $classes; ?>">
@@ -46,12 +47,9 @@ return false;
   <input type="hidden" id="encoreBase" name="search" value="http://encore.greenvillelibrary.org/iii/encore/search/" />
 
   
-  <input class="button" type="submit" name="Search Catalog" value ="Search Catalog" onClick = "return searchEncore();">
-  <input class="button" type="submit" name="Search Site" value ="Search Website" onClick = "return searchweb();">
+  <input class="button" type="submit" name="Search Catalog" value ="Catalog" onClick = "return searchEncore();">
+  <input class="button" type="submit" name="Search Site" value ="Website" onClick = "return searchweb();">
 </form>
-
-<button>My Account</button>
-<button>Ask Us</button>
   
 </div>
 

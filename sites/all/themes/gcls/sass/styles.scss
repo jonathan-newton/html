@@ -60,14 +60,43 @@ h3 {
 	display: none;
 }
 
-/*FOOTER AND HEADER STYLES */
-
-#footer {
-	background-color:#41C3DC;
-}
+/*HEADER STYLES*/
 
 #header {
 	background-color: #E2E1E9;
+	width:100%;
+	padding-left:0em;
+	padding-right:16px;
+}
+
+.logo {
+	height:70px;
+	padding-left: 1em;
+	padding-top: 0.5em;
+}
+
+#header .catlinks {
+	padding-left:8em;
+	padding-top:2.5em;
+}
+
+.myaccount{
+
+}
+
+.button {
+	@include gclsbutton;
+}
+
+.bluebar {
+	background-color: #0084CB;
+	width:100%;
+}
+
+/*FOOTER STYLES AND SHARED STYLES */
+
+#footer {
+	background-color:#41C3DC;
 }
 
 #footer div, #header div{
@@ -93,24 +122,9 @@ h3 {
 	color:#D3EEF4;
 }
 
-.logo {
-	height:70px;
-	padding-left: 1em;
-	padding-top: 0.5em;
-}
-
-#header .catlinks {
-	padding-left:8em;
-	padding-top:2.5em;
-}
-
-.myaccount, .catsearch {
-	@include gclsbutton;
-}
-
 .footerlinks {
 	float:right;
-	margin-right: 5em;
+	margin: 2.5em;
 }
 
 .icons {
@@ -124,5 +138,5 @@ h3 {
 }
 
 .fhours {
-	margin-left:5em;
+	margin:2.5em;
 }

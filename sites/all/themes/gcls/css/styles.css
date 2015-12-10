@@ -1833,60 +1833,30 @@ h3 {
   display: none;
 }
 
-/*FOOTER AND HEADER STYLES */
+/*HEADER STYLES*/
 /* line 65, ../sass/styles.scss */
-#footer {
-  background-color: #41C3DC;
-}
-
-/* line 69, ../sass/styles.scss */
 #header {
   background-color: #E2E1E9;
+  width: 100%;
+  padding-left: 0em;
+  padding-right: 16px;
 }
 
-/* line 73, ../sass/styles.scss */
-#footer div, #header div {
-  display: inline-block;
-  padding: 0.5em;
-  vertical-align: top;
-  color: #2f4f4f;
-}
-
-/* line 80, ../sass/styles.scss */
-#footer div {
-  color: #FFF;
-}
-
-/* line 84, ../sass/styles.scss */
-#footer p {
-  color: #FFF;
-}
-
-/* line 88, ../sass/styles.scss */
-#footer div a {
-  color: #FFF;
-}
-
-/* line 92, ../sass/styles.scss */
-#footer div .address {
-  color: #D3EEF4;
-}
-
-/* line 96, ../sass/styles.scss */
+/* line 72, ../sass/styles.scss */
 .logo {
   height: 70px;
   padding-left: 1em;
   padding-top: 0.5em;
 }
 
-/* line 102, ../sass/styles.scss */
+/* line 78, ../sass/styles.scss */
 #header .catlinks {
   padding-left: 8em;
   padding-top: 2.5em;
 }
 
-/* line 107, ../sass/styles.scss */
-.myaccount, .catsearch {
+/* line 87, ../sass/styles.scss */
+.button {
   font-family: "Lato", Georgia, sans-serif;
   font-weight: normal;
   background-color: #0084CB;
@@ -1896,25 +1866,65 @@ h3 {
   cursor: pointer;
 }
 
-/* line 111, ../sass/styles.scss */
-.footerlinks {
-  float: right;
-  margin-right: 5em;
+/* line 91, ../sass/styles.scss */
+.bluebar {
+  background-color: #0084CB;
+  width: 100%;
 }
 
-/* line 116, ../sass/styles.scss */
+/*FOOTER STYLES AND SHARED STYLES */
+/* line 98, ../sass/styles.scss */
+#footer {
+  background-color: #41C3DC;
+}
+
+/* line 102, ../sass/styles.scss */
+#footer div, #header div {
+  display: inline-block;
+  padding: 0.5em;
+  vertical-align: top;
+  color: #2f4f4f;
+}
+
+/* line 109, ../sass/styles.scss */
+#footer div {
+  color: #FFF;
+}
+
+/* line 113, ../sass/styles.scss */
+#footer p {
+  color: #FFF;
+}
+
+/* line 117, ../sass/styles.scss */
+#footer div a {
+  color: #FFF;
+}
+
+/* line 121, ../sass/styles.scss */
+#footer div .address {
+  color: #D3EEF4;
+}
+
+/* line 125, ../sass/styles.scss */
+.footerlinks {
+  float: right;
+  margin: 2.5em;
+}
+
+/* line 130, ../sass/styles.scss */
 .icons {
   display: inline-block;
   height: 28px;
   margin-left: 0.75em;
 }
 
-/* line 122, ../sass/styles.scss */
+/* line 136, ../sass/styles.scss */
 .icons a {
   padding-right: 1em;
 }
 
-/* line 126, ../sass/styles.scss */
+/* line 140, ../sass/styles.scss */
 .fhours {
-  margin-left: 5em;
+  margin: 2.5em;
 }
