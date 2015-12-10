@@ -6,6 +6,8 @@
  * of these @include files will be combined into a single file.
  */
 
+ /* Test */
+
 /* Import Sass mixins, variables, Compass modules, etc. */
 @import "init";
 
@@ -60,7 +62,11 @@ h3 {
 
 /*FOOTER AND HEADER STYLES */
 
-#footer, #header {
+#footer {
+	background-color:#41C3DC;
+}
+
+#header {
 	background-color: #E2E1E9;
 }
 
@@ -69,7 +75,18 @@ h3 {
 	padding:0.5em;
 	vertical-align: top;
 	color:#2f4f4f;
+}
 
+#footer div {
+	color:#FFF;
+}
+
+#footer p {
+	color:#FFF;
+}
+
+#footer div a {
+	color:#FFF;
 }
 
 #header .socialmedia {
@@ -105,22 +122,28 @@ h3 {
 	vertical-align: top;
 }
 
+.footerlinks {
+	float:right;
+	margin-right: 5em;
+}
+
 .icons {
 	display: inline-block;
 	height:28px;
-	padding-right: 10px;
+	margin-left:0.75em;
 }
 	
 .icons a {
-     padding-right: 3px;
+     padding-right: 1em;
 }
 
 .fhours {
-	margin-left:1.5em;
+	margin-left:5em;
 }
 
 .address {
 	margin:auto;
+	clear:both;
 }
 
 .logo {
@@ -136,6 +159,8 @@ h3 {
 
 .myaccount, .catsearch {
 	@include gclsbutton;
-	  
 }
 
+.copyright {
+	margin-left: 30em;
+}

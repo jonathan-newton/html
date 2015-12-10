@@ -22,8 +22,12 @@ return false;
 }
 </script>
 
+<div>
+  <?php print render($page['header']); ?>
+</div>
+
 <header id="header" class="<?php print $classes; ?>">
-  
+
 <div >
   	<a href="#"><img class="logo" alt="GCLS logo" src= "<?php print $base_url; ?>/sites/all/themes/gcls/images/Logo2016.png"></a>
 </div>
@@ -51,10 +55,6 @@ return false;
   
 </div>
 
-<div>
-<?php print render($page['header']); ?>
-</div>
-
 <?php if ($secondary_menu): ?>
   <nav class="header__secondary-menu" id="secondary-menu" role="navigation">
     <?php print theme('links__system_secondary_menu', array(
@@ -70,4 +70,5 @@ return false;
     )); ?>
   </nav>
 <?php endif; ?>
+
 </header>

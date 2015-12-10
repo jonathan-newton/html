@@ -5,6 +5,7 @@
  * When you turn on CSS aggregation at admin/config/development/performance, all
  * of these @include files will be combined into a single file.
  */
+/* Test */
 /* Import Sass mixins, variables, Compass modules, etc. */
 @import url(https://fonts.googleapis.com/css?family=Lato:400,700);
 /* HTML element (SMACSS base) rules */
@@ -1794,51 +1795,56 @@ tr.selected td {
 /* SMACSS theme rules */
 /* @import "theme-A"; */
 /* @import "theme-B"; */
-/* line 30, ../sass/styles.scss */
+/* line 32, ../sass/styles.scss */
 a {
   text-decoration: none;
   color: #0084CB;
 }
 
-/* line 35, ../sass/styles.scss */
+/* line 37, ../sass/styles.scss */
 p {
   font-size: 1em;
   color: #58595B;
 }
 
-/* line 40, ../sass/styles.scss */
+/* line 42, ../sass/styles.scss */
 body {
   font-family: "Lato", Georgia, sans-serif;
 }
 
 /* SECTION HEADER STYLES*/
-/* line 45, ../sass/styles.scss */
+/* line 47, ../sass/styles.scss */
 h1 {
   font-size: 2.25em;
 }
 
-/* line 49, ../sass/styles.scss */
+/* line 51, ../sass/styles.scss */
 h2 {
   font-size: 1.75em;
 }
 
-/* line 53, ../sass/styles.scss */
+/* line 55, ../sass/styles.scss */
 h3 {
   font-size: 1.33em;
 }
 
-/* line 57, ../sass/styles.scss */
+/* line 59, ../sass/styles.scss */
 .nodisplay {
   display: none;
 }
 
 /*FOOTER AND HEADER STYLES */
-/* line 63, ../sass/styles.scss */
-#footer, #header {
+/* line 65, ../sass/styles.scss */
+#footer {
+  background-color: #41C3DC;
+}
+
+/* line 69, ../sass/styles.scss */
+#header {
   background-color: #E2E1E9;
 }
 
-/* line 67, ../sass/styles.scss */
+/* line 73, ../sass/styles.scss */
 #footer div, #header div {
   display: inline-block;
   padding: 0.5em;
@@ -1846,33 +1852,48 @@ h3 {
   color: #2f4f4f;
 }
 
-/* line 75, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
+#footer div {
+  color: #FFF;
+}
+
+/* line 84, ../sass/styles.scss */
+#footer p {
+  color: #FFF;
+}
+
+/* line 88, ../sass/styles.scss */
+#footer div a {
+  color: #FFF;
+}
+
+/* line 92, ../sass/styles.scss */
 #header .socialmedia {
   float: right;
 }
 
-/* line 79, ../sass/styles.scss */
+/* line 96, ../sass/styles.scss */
 #footer .socialmedia p, #header .socialmedia p {
   margin: 0;
   padding: 0.5em;
 }
 
-/* line 84, ../sass/styles.scss */
+/* line 101, ../sass/styles.scss */
 #footer .socialmedia a, #header .socialmedia a {
   padding-right: 0.75em;
 }
 
-/* line 88, ../sass/styles.scss */
+/* line 105, ../sass/styles.scss */
 #footer .socialmedia .icons a, #header .socialmedia .icons a {
   padding-right: 0.25em;
 }
 
-/* line 92, ../sass/styles.scss */
+/* line 109, ../sass/styles.scss */
 .socialmedia {
   position: relative;
 }
 
-/* line 96, ../sass/styles.scss */
+/* line 113, ../sass/styles.scss */
 .newsbutton {
   font-family: "Lato", Georgia, sans-serif;
   font-weight: normal;
@@ -1887,48 +1908,55 @@ h3 {
   height: 28px;
 }
 
-/* line 103, ../sass/styles.scss */
+/* line 120, ../sass/styles.scss */
 .nlink {
   display: block;
   vertical-align: top;
 }
 
-/* line 108, ../sass/styles.scss */
+/* line 125, ../sass/styles.scss */
+.footerlinks {
+  float: right;
+  margin-right: 5em;
+}
+
+/* line 130, ../sass/styles.scss */
 .icons {
   display: inline-block;
   height: 28px;
-  padding-right: 10px;
+  margin-left: 0.75em;
 }
 
-/* line 114, ../sass/styles.scss */
+/* line 136, ../sass/styles.scss */
 .icons a {
-  padding-right: 3px;
+  padding-right: 1em;
 }
 
-/* line 118, ../sass/styles.scss */
+/* line 140, ../sass/styles.scss */
 .fhours {
-  margin-left: 1.5em;
+  margin-left: 5em;
 }
 
-/* line 122, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
 .address {
   margin: auto;
+  clear: both;
 }
 
-/* line 126, ../sass/styles.scss */
+/* line 149, ../sass/styles.scss */
 .logo {
   height: 70px;
   padding-left: 1em;
   padding-top: 0.5em;
 }
 
-/* line 132, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 #header .catlinks {
   padding-left: 8em;
   padding-top: 2.5em;
 }
 
-/* line 137, ../sass/styles.scss */
+/* line 160, ../sass/styles.scss */
 .myaccount, .catsearch {
   font-family: "Lato", Georgia, sans-serif;
   font-weight: normal;
@@ -1937,4 +1965,9 @@ h3 {
   color: #fff;
   border: none;
   cursor: pointer;
+}
+
+/* line 164, ../sass/styles.scss */
+.copyright {
+  margin-left: 30em;
 }

@@ -1,0 +1,130 @@
+/*
+  This file contains the basic logic for nice menus, and should not be
+  edited.  To customize the menus, it's recommended to create a custom CSS
+  file using nice_menus_default.css as a template, then configure the module
+  to use your custom CSS file (this is done in the global settings tab of
+  the theme administration.)
+*/
+/* Below should fix menu being a few pixels away in some themes, and menus disappearing behind other stuff. */
+/* line 10, ../sass/nice_menus.scss */
+.block-nice-menus {
+  line-height: normal;
+  z-index: 10;
+}
+
+/* line 16, ../sass/nice_menus.scss */
+ul.nice-menu,
+ul.nice-menu ul {
+  z-index: 5;
+  position: relative;
+}
+
+/* line 21, ../sass/nice_menus.scss */
+ul.nice-menu li {
+  position: relative;
+}
+
+/* line 25, ../sass/nice_menus.scss */
+ul.nice-menu a {
+  display: block;
+  /*Default to Blue, but override as necessary*/
+  color: #027ac6;
+}
+
+/* line 33, ../sass/nice_menus.scss */
+ul.nice-menu ul,
+#header-region ul.nice-menu ul {
+  position: absolute;
+  visibility: hidden;
+}
+
+/* line 38, ../sass/nice_menus.scss */
+ul.nice-menu li.over ul {
+  visibility: visible;
+}
+
+/* line 42, ../sass/nice_menus.scss */
+ul.nice-menu ul li {
+  display: block;
+}
+
+/* line 46, ../sass/nice_menus.scss */
+ul.nice-menu:after {
+  content: ".";
+  display: block;
+  height: 0;
+  clear: both;
+  visibility: hidden;
+}
+
+/* Show submenus when over their parents. */
+/* line 69, ../sass/nice_menus.scss */
+ul.nice-menu li:hover ul,
+ul.nice-menu li.menuparent li:hover ul,
+ul.nice-menu li.menuparent li.menuparent li:hover ul,
+ul.nice-menu li.menuparent li.menuparent li.menuparent li:hover ul,
+ul.nice-menu li.over ul,
+ul.nice-menu li.menuparent li.over ul,
+ul.nice-menu li.menuparent li.menuparent li.over ul,
+ul.nice-menu li.menuparent li.menuparent li.menuparent li.over ul,
+#header-region ul.nice-menu li:hover ul,
+#header-region ul.nice-menu li.menuparent li:hover ul,
+#header-region ul.nice-menu li.menuparent li.menuparent li:hover ul,
+#header-region ul.nice-menu li.over ul,
+#header-region ul.nice-menu li.menuparent li.over ul,
+#header-region ul.nice-menu li.menuparent li.menuparent li.over ul {
+  visibility: visible;
+}
+
+/* Hide sub-menus initially. */
+/* line 98, ../sass/nice_menus.scss */
+ul.nice-menu li:hover ul ul,
+ul.nice-menu li:hover ul ul ul,
+ul.nice-menu li:hover li:hover ul ul,
+ul.nice-menu li:hover li:hover ul ul ul,
+ul.nice-menu li:hover li:hover li:hover ul ul,
+ul.nice-menu li:hover li:hover li:hover ul ul ul,
+ul.nice-menu li.over ul ul,
+ul.nice-menu li.over ul ul ul,
+ul.nice-menu li.over li.over ul ul,
+ul.nice-menu li.over li.over ul ul ul,
+ul.nice-menu li.over li.over li.over ul ul,
+ul.nice-menu li.over li.over li.over ul ul ul,
+#header-region ul.nice-menu li:hover ul ul,
+#header-region ul.nice-menu li:hover ul ul ul,
+#header-region ul.nice-menu li:hover li:hover ul ul,
+#header-region ul.nice-menu li:hover li:hover ul ul ul,
+#header-region ul.nice-menu li:hover li:hover li:hover ul ul,
+#header-region ul.nice-menu li:hover li:hover li:hover ul ul ul,
+#header-region ul.nice-menu li.over ul ul,
+#header-region ul.nice-menu li.over ul ul ul,
+#header-region ul.nice-menu li.over li.over ul ul,
+#header-region ul.nice-menu li.over li.over ul ul ul,
+#header-region ul.nice-menu li.over li.over li.over ul ul,
+#header-region ul.nice-menu li.over li.over li.over ul ul ul {
+  visibility: hidden;
+}
+
+/***************
+ IE 6 Fixes
+***************/
+/* Iframe to fix z-index bug when menu hovers over <select> fields. */
+/* line 109, ../sass/nice_menus.scss */
+ul.nice-menu li.menuparent ul,
+#header-region ul.nice-menu li.menuparent ul {
+  overflow: visible !important;
+}
+
+/* line 115, ../sass/nice_menus.scss */
+ul.nice-menu li.menuparent ul iframe,
+#header-region ul.nice-menu li.menuparent ul iframe {
+  display: none;
+  display/**/: block;
+  position: absolute;
+  top: 0;
+  left: 0;
+  z-index: -1;
+  filter: mask();
+  width: 20px;
+  height: 20px;
+}
