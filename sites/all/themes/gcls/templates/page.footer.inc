@@ -30,11 +30,13 @@ global $base_url;
     <br> 
   </div>
   <br>
-    <div>
+  <div class="address">
     25 Heritage Green |
     Greenville, SC 29601 | 
     (864) 242-5000
-    </div>
+    <br>
+    &copy; 2016 Greenville County Library System  
+  </div>
 </div>
 
 <div class="footerlinks">
@@ -58,12 +60,6 @@ global $base_url;
     <a href="http://pinterest.com/gcls/" target="_blank"><img alt="Pinterest" src="<?php print $base_url; ?>/sites/all/themes/gcls/images/pin.png"></a>
     <a href="http://instagram.com/greenvillelibrary" target="_blank"><img alt="Instagram" src="<?php print $base_url; ?>/sites/all/themes/gcls/images/insta.png"></a>
   </div>
-</div>
-
-<br>
-
-<div class="copyright">
-  <p> &copy; 2016 Greenville County Library System </p>
 </div>
 
 </footer>

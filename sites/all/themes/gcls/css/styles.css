@@ -1889,11 +1889,16 @@ h3 {
 }
 
 /* line 109, ../sass/styles.scss */
+#footer div .address {
+  color: #D3EEF4;
+}
+
+/* line 113, ../sass/styles.scss */
 .socialmedia {
   position: relative;
 }
 
-/* line 113, ../sass/styles.scss */
+/* line 117, ../sass/styles.scss */
 .newsbutton {
   font-family: "Lato", Georgia, sans-serif;
   font-weight: normal;
@@ -1908,55 +1913,49 @@ h3 {
   height: 28px;
 }
 
-/* line 120, ../sass/styles.scss */
+/* line 124, ../sass/styles.scss */
 .nlink {
   display: block;
   vertical-align: top;
 }
 
-/* line 125, ../sass/styles.scss */
+/* line 129, ../sass/styles.scss */
 .footerlinks {
   float: right;
   margin-right: 5em;
 }
 
-/* line 130, ../sass/styles.scss */
+/* line 134, ../sass/styles.scss */
 .icons {
   display: inline-block;
   height: 28px;
   margin-left: 0.75em;
 }
 
-/* line 136, ../sass/styles.scss */
+/* line 140, ../sass/styles.scss */
 .icons a {
   padding-right: 1em;
 }
 
-/* line 140, ../sass/styles.scss */
+/* line 144, ../sass/styles.scss */
 .fhours {
   margin-left: 5em;
 }
 
-/* line 144, ../sass/styles.scss */
-.address {
-  margin: auto;
-  clear: both;
-}
-
-/* line 149, ../sass/styles.scss */
+/* line 148, ../sass/styles.scss */
 .logo {
   height: 70px;
   padding-left: 1em;
   padding-top: 0.5em;
 }
 
-/* line 155, ../sass/styles.scss */
+/* line 154, ../sass/styles.scss */
 #header .catlinks {
   padding-left: 8em;
   padding-top: 2.5em;
 }
 
-/* line 160, ../sass/styles.scss */
+/* line 159, ../sass/styles.scss */
 .myaccount, .catsearch {
   font-family: "Lato", Georgia, sans-serif;
   font-weight: normal;
@@ -1965,9 +1964,4 @@ h3 {
   color: #fff;
   border: none;
   cursor: pointer;
-}
-
-/* line 164, ../sass/styles.scss */
-.copyright {
-  margin-left: 30em;
 }

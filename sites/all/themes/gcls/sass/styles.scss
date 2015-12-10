@@ -106,6 +106,10 @@ h3 {
 	padding-right:0.25em;
 }
 
+#footer div .address {
+	color:#D3EEF4;
+}
+
 .socialmedia {
 	position: relative;
     }
@@ -141,11 +145,6 @@ h3 {
 	margin-left:5em;
 }
 
-.address {
-	margin:auto;
-	clear:both;
-}
-
 .logo {
 	height:70px;
 	padding-left: 1em;
@@ -159,8 +158,4 @@ h3 {
 
 .myaccount, .catsearch {
 	@include gclsbutton;
-}
-
-.copyright {
-	margin-left: 30em;
 }
