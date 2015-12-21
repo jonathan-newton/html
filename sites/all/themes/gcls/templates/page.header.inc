@@ -33,24 +33,17 @@ return false;
   	<a href="#"><img class="logo" alt="GCLS logo" src= "<?php print $base_url; ?>/sites/all/themes/gcls/images/Logo2016.png"></a>
 </div>
 
-<div>
-
+<div class="searcharea">
   <?php include('catsearch.js'); ?>
-
-<form name="form1">
-    
-  <!-- REQUIRED with id="encoreSearchInput" -->
-  <label for="encoreSearchInput" class="nodisplay">Search</label>
-  <input id="encoreSearchInput" name="search" type="text" />
-
-  <!-- REQUIRED INPUT with id="encoreBase": <ENCORE_FQDN> fully qualified domain name such as "encore.greenvillelibrary.org"  -->
-  <input type="hidden" id="encoreBase" name="search" value="http://encore.greenvillelibrary.org/iii/encore/search/" />
-
-  
-  <input class="button" type="submit" name="Search Catalog" value ="Catalog" onClick = "return searchEncore();">
-  <input class="button" type="submit" name="Search Site" value ="Website" onClick = "return searchweb();">
-</form>
-  
+  <form name="form1"> 
+    <!-- REQUIRED with id="encoreSearchInput" -->
+    <label for="encoreSearchInput" class="nodisplay">Search</label>
+    <input id="encoreSearchInput" name="search" type="text" />
+    <!-- REQUIRED INPUT with id="encoreBase": <ENCORE_FQDN> fully qualified domain name such as "encore.greenvillelibrary.org"  -->
+    <input type="hidden" id="encoreBase" name="search" value="http://encore.greenvillelibrary.org/iii/encore/search/" />
+    <input class="button" type="submit" name="Search Catalog" value ="Catalog" onClick = "return searchEncore();">
+    <input class="button" type="submit" name="Search Site" value ="Site" onClick = "return searchweb();">
+  </form> 
 </div>
 
 <?php if ($secondary_menu): ?>

@@ -600,7 +600,6 @@ table {
 .region-bottom {
   margin-left: auto;
   margin-right: auto;
-  max-width: 1200px;
 }
 
 /* Apply the shared properties of grid items in a single, efficient ruleset. */
@@ -1844,87 +1843,162 @@ h3 {
 
 /* line 72, ../sass/styles.scss */
 .logo {
-  height: 70px;
-  padding-left: 1em;
-  padding-top: 0.5em;
+  height: 7em;
+  padding-left: 15em;
+  padding-top: 1em;
+  padding-bottom: 1em;
+  margin-left: 2.5em;
 }
 
-/* line 78, ../sass/styles.scss */
+/* line 80, ../sass/styles.scss */
 #header .catlinks {
   padding-left: 8em;
   padding-top: 2.5em;
 }
 
-/* line 87, ../sass/styles.scss */
-.button {
-  font-family: "Lato", Georgia, sans-serif;
-  font-weight: normal;
-  background-color: #0084CB;
-  text-decoration: none;
-  color: #fff;
+/* line 85, ../sass/styles.scss */
+.myaccount {
+  background-color: #FBAF45;
+  padding-left: 1.5em;
+  padding-right: 1.5em;
   border: none;
-  cursor: pointer;
+  font-size: 1.25em;
+  color: #fff;
+  padding-bottom: 0.75em;
+  padding-top: 0.75em;
+  float: right;
+  margin-top: 1em;
+  margin-right: 5em;
 }
 
-/* line 91, ../sass/styles.scss */
-.bluebar {
-  background-color: #0084CB;
-  width: 100%;
+/* line 99, ../sass/styles.scss */
+.button {
+  height: 3.5em;
+  color: #58595B;
+  background-color: #ccc;
+  border: none;
+}
+
+/* line 106, ../sass/styles.scss */
+.button:hover, .button:active {
+  color: #fff;
+  background-color: #58595B;
+}
+
+/* line 111, ../sass/styles.scss */
+.searcharea {
+  float: right;
+  padding-top: 2.5em;
+  padding-right: 15em;
+  margin-right: 2.5em;
+}
+
+/* line 118, ../sass/styles.scss */
+#encoreSearchInput {
+  height: 3.5em;
+  width: 18em;
 }
 
 /*FOOTER STYLES AND SHARED STYLES */
-/* line 98, ../sass/styles.scss */
+/* line 125, ../sass/styles.scss */
 #footer {
   background-color: #41C3DC;
 }
 
-/* line 102, ../sass/styles.scss */
+/* line 129, ../sass/styles.scss */
 #footer div, #header div {
   display: inline-block;
-  padding: 0.5em;
   vertical-align: top;
   color: #2f4f4f;
 }
 
-/* line 109, ../sass/styles.scss */
-#footer div {
-  color: #FFF;
+/* line 135, ../sass/styles.scss */
+.bluebar {
+  background-color: #0084CB;
+  width: 100%;
+  padding: 0;
+  padding-right: 1em;
 }
 
-/* line 113, ../sass/styles.scss */
+/* line 142, ../sass/styles.scss */
+#footer div {
+  color: #FFF;
+  font-size: 1em;
+}
+
+/* line 147, ../sass/styles.scss */
 #footer p {
   color: #FFF;
 }
 
-/* line 117, ../sass/styles.scss */
+/* line 151, ../sass/styles.scss */
 #footer div a {
   color: #FFF;
 }
 
-/* line 121, ../sass/styles.scss */
+/* line 155, ../sass/styles.scss */
 #footer div .address {
   color: #D3EEF4;
 }
 
-/* line 125, ../sass/styles.scss */
+/* line 159, ../sass/styles.scss */
 .footerlinks {
   float: right;
   margin: 2.5em;
+  padding-right: 15em;
 }
 
-/* line 130, ../sass/styles.scss */
+/* line 165, ../sass/styles.scss */
+.footerlinks div {
+  padding-right: 5em;
+  padding-bottom: 0.5em;
+}
+
+/* line 170, ../sass/styles.scss */
 .icons {
   display: inline-block;
   height: 28px;
-  margin-left: 0.75em;
+  margin-left: 2em;
 }
 
-/* line 136, ../sass/styles.scss */
+/* line 176, ../sass/styles.scss */
 .icons a {
   padding-right: 1em;
 }
 
-/* line 140, ../sass/styles.scss */
+/* line 180, ../sass/styles.scss */
 .fhours {
   margin: 2.5em;
+  padding-left: 15em;
+}
+
+/* line 185, ../sass/styles.scss */
+.fhours div {
+  margin-left: 2em;
+}
+
+@media (max-width: 1040px) {
+  /* line 191, ../sass/styles.scss */
+  .myaccount {
+    width: 100%;
+    display: block;
+    padding: 20px;
+    margin: 0;
+  }
+
+  /* line 198, ../sass/styles.scss */
+  .footerlinks {
+    padding-right: 8em;
+  }
+}
+@media (max-width: 768px) {
+  /* line 204, ../sass/styles.scss */
+  .footerlinks {
+    padding-right: 0;
+  }
+
+  /* line 208, ../sass/styles.scss */
+  .fhours {
+    padding-left: 0;
+  }
 }

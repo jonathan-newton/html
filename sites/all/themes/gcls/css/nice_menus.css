@@ -11,90 +11,85 @@
 /******************************
  Global CSS for ALL menu types
 ******************************/
-/* line 17, ../sass/nice_menus.scss */
+/* line 15, ../sass/nice_menus.scss */
+.block-nice-menus {
+  line-height: normal;
+  margin-left: 15em;
+  margin-top: 1.5em;
+}
+
+/* line 24, ../sass/nice_menus.scss */
+ul.nice-menu ul,
+#header-region ul.nice-menu ul {
+  position: absolute;
+}
+
+/* line 29, ../sass/nice_menus.scss */
 ul.nice-menu,
 ul.nice-menu ul {
   list-style: none;
-  padding: 0;
-  margin: 0;
 }
 
-/* line 23, ../sass/nice_menus.scss */
+/* line 33, ../sass/nice_menus.scss */
+ul.nice-menu {
+  font-size: 1.1em;
+}
+
+/* line 37, ../sass/nice_menus.scss */
 ul.nice-menu li {
   float: left;
   /* LTR */
 }
 
-/* line 27, ../sass/nice_menus.scss */
+/* line 41, ../sass/nice_menus.scss */
 ul.nice-menu a {
-  padding: 0.3em 5px 0.3em 5px;
   color: #FFF;
 }
 
-/* line 32, ../sass/nice_menus.scss */
+/* line 45, ../sass/nice_menus.scss */
 ul.nice-menu a:hover {
   background-color: #4D4C68;
 }
 
-/* line 36, ../sass/nice_menus.scss */
-ul.nice-menu ul {
-  top: 1.8em;
-  left: -1px;
-  /* LTR */
-  margin-right: 0;
-  /* LTR */
-}
-
-/* line 42, ../sass/nice_menus.scss */
+/* line 52, ../sass/nice_menus.scss */
 ul.nice-menu ul li {
-  width: 12.5em;
   background-color: #4D4C68;
 }
 
 /******************************
  HORIZONTAL (down) menus
 ******************************/
-/* line 51, ../sass/nice_menus.scss */
+/* line 60, ../sass/nice_menus.scss */
 ul.nice-menu-down {
   float: left;
   /* LTR */
 }
 
-/* line 61, ../sass/nice_menus.scss */
-ul.nice-menu-down ul {
-  left: 0;
-  /* LTR */
-}
-
-/* line 65, ../sass/nice_menus.scss */
-ul.nice-menu-down ul li {
-  clear: both;
+/* line 64, ../sass/nice_menus.scss */
+ul.nice-menu-down li {
+  margin-left: 2em;
+  margin-right: 2em;
 }
 
 /* line 69, ../sass/nice_menus.scss */
-ul.nice-menu-down ul li a:hover {
-  background-color: #9595AB;
-}
-
-/* line 73, ../sass/nice_menus.scss */
-ul.nice-menu-down li ul li ul {
-  left: 12.5em;
-  /* LTR */
-  top: -1px;
+ul.nice-menu-down li li {
+  width: 100px;
+  font-size: 1em;
+  padding-left: 50px;
 }
 
 /* line 78, ../sass/nice_menus.scss */
-ul.nice-menu-down .menuparent a {
-  padding-right: 15px;
-  /* LTR */
+ul.nice-menu-down ul li {
+  clear: both;
+  margin: 0;
 }
 
-/* line 86, ../sass/nice_menus.scss */
+/* line 98, ../sass/nice_menus.scss */
 ul.nice-menu-down li.menuparent:hover {
   background-color: #4D4C68;
 }
 
-/* line 94, ../sass/nice_menus.scss */
+/* line 106, ../sass/nice_menus.scss */
 ul.nice-menu-down li li.menuparent:hover {
   background-color: #4D4C68;
 }

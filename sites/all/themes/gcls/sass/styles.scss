@@ -70,9 +70,11 @@ h3 {
 }
 
 .logo {
-	height:70px;
-	padding-left: 1em;
-	padding-top: 0.5em;
+	height:7em;
+	padding-left: 15em;
+	padding-top: 1em;
+	padding-bottom: 1em;
+	margin-left:2.5em;
 }
 
 #header .catlinks {
@@ -81,16 +83,41 @@ h3 {
 }
 
 .myaccount{
-
+	background-color: #FBAF45;
+	padding-left: 1.5em;
+	padding-right:1.5em;
+	border:none;
+	font-size:1.25em;
+	color:#fff;
+	padding-bottom: 0.75em;
+	padding-top: 0.75em;
+	float:right;
+	margin-top:1em;
+	margin-right:5em;
 }
 
 .button {
-	@include gclsbutton;
+	height: 3.5em;
+	color:#58595B;
+	background-color: #ccc;
+	border:none;
 }
 
-.bluebar {
-	background-color: #0084CB;
-	width:100%;
+.button:hover, .button:active {
+	color:#fff;
+	background-color: #58595B;
+}
+
+.searcharea {
+	float:right;
+	padding-top:2.5em;
+	padding-right:15em;
+	margin-right:2.5em;
+}
+
+#encoreSearchInput {
+	height:3.5em;
+	width:18em;
 }
 
 /*FOOTER STYLES AND SHARED STYLES */
@@ -101,13 +128,20 @@ h3 {
 
 #footer div, #header div{
 	display: inline-block;
-	padding:0.5em;
 	vertical-align: top;
 	color:#2f4f4f;
 }
 
+.bluebar {
+	background-color: #0084CB;
+	width:100%;
+	padding:0;
+	padding-right:1em;
+}
+
 #footer div {
 	color:#FFF;
+	font-size:1em;
 }
 
 #footer p {
@@ -125,12 +159,18 @@ h3 {
 .footerlinks {
 	float:right;
 	margin: 2.5em;
+	padding-right:15em;
+}
+
+.footerlinks div {
+	padding-right:5em;
+	padding-bottom:0.5em;
 }
 
 .icons {
 	display: inline-block;
 	height:28px;
-	margin-left:0.75em;
+	margin-left:2em;
 }
 	
 .icons a {
@@ -139,4 +179,33 @@ h3 {
 
 .fhours {
 	margin:2.5em;
+	padding-left:15em;
+}
+
+.fhours div {
+	margin-left:2em;
+}
+
+// MEDIA QUERIES //
+@media (max-width: 1040px) {
+	.myaccount {
+		width:100%;
+		display:block;
+		padding:20px;
+		margin:0;
+	}	
+
+	.footerlinks {
+		padding-right:8em;
+	}
+}
+
+@media (max-width:768px) {
+	.footerlinks {
+		padding-right:0;
+	}
+
+	.fhours {
+		padding-left:0;
+	}
 }
