@@ -186,6 +186,20 @@ h3 {
 	margin-left:2em;
 }
 
+// Announcement Region //
+.announcement {
+	background-color: #E9CBE2;
+	padding:30px;
+}
+
+.ann {
+	font-size:3em;
+}
+
+.annbody {
+	font-size: 1.25em;
+}
+
 // MEDIA QUERIES //
 @media (max-width: 1040px) {
 	.myaccount {

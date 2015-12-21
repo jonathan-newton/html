@@ -641,7 +641,7 @@ table {
   /* line 60, ../sass/layouts/_responsive.scss */
   #main {
     /* Move all the children of #main down to make room. */
-    padding-top: 3em;
+    /*padding-top: 3em;*/
     position: relative;
   }
 
@@ -1977,8 +1977,24 @@ h3 {
   margin-left: 2em;
 }
 
+/* line 190, ../sass/styles.scss */
+.announcement {
+  background-color: #E9CBE2;
+  padding: 30px;
+}
+
+/* line 195, ../sass/styles.scss */
+.ann {
+  font-size: 3em;
+}
+
+/* line 199, ../sass/styles.scss */
+.annbody {
+  font-size: 1.25em;
+}
+
 @media (max-width: 1040px) {
-  /* line 191, ../sass/styles.scss */
+  /* line 205, ../sass/styles.scss */
   .myaccount {
     width: 100%;
     display: block;
@@ -1986,18 +2002,18 @@ h3 {
     margin: 0;
   }
 
-  /* line 198, ../sass/styles.scss */
+  /* line 212, ../sass/styles.scss */
   .footerlinks {
     padding-right: 8em;
   }
 }
 @media (max-width: 768px) {
-  /* line 204, ../sass/styles.scss */
+  /* line 218, ../sass/styles.scss */
   .footerlinks {
     padding-right: 0;
   }
 
-  /* line 208, ../sass/styles.scss */
+  /* line 222, ../sass/styles.scss */
   .fhours {
     padding-left: 0;
   }
