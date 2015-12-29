@@ -38,6 +38,7 @@ ul.nice-menu {
 /* line 37, ../sass/nice_menus.scss */
 ul.nice-menu li {
   float: left;
+  padding:10px;
   /* LTR */
 }
 
@@ -80,8 +81,7 @@ ul.nice-menu-down li li {
 
 /* line 78, ../sass/nice_menus.scss */
 ul.nice-menu-down ul li {
-  clear: both;
-  margin: 0;
+
 }
 
 /* line 98, ../sass/nice_menus.scss */

@@ -641,7 +641,6 @@ table {
   /* line 60, ../sass/layouts/_responsive.scss */
   #main {
     /* Move all the children of #main down to make room. */
-    /*padding-top: 3em;*/
     position: relative;
   }
 
@@ -650,7 +649,6 @@ table {
     /* Move the navbar up inside #main's padding. */
     position: absolute;
     top: 0;
-    height: 3em;
     width: 100%;
   }
 }
@@ -1986,15 +1984,22 @@ h3 {
 /* line 195, ../sass/styles.scss */
 .ann {
   font-size: 3em;
+  padding-left: 25%;
 }
 
-/* line 199, ../sass/styles.scss */
+/* line 200, ../sass/styles.scss */
 .annbody {
-  font-size: 1.25em;
+  font-size: 1.5em;
+}
+
+/* line 204, ../sass/styles.scss */
+.anndiv {
+  width: 50%;
+  margin: auto;
 }
 
 @media (max-width: 1040px) {
-  /* line 205, ../sass/styles.scss */
+  /* line 211, ../sass/styles.scss */
   .myaccount {
     width: 100%;
     display: block;
@@ -2002,18 +2007,18 @@ h3 {
     margin: 0;
   }
 
-  /* line 212, ../sass/styles.scss */
+  /* line 218, ../sass/styles.scss */
   .footerlinks {
     padding-right: 8em;
   }
 }
 @media (max-width: 768px) {
-  /* line 218, ../sass/styles.scss */
+  /* line 224, ../sass/styles.scss */
   .footerlinks {
     padding-right: 0;
   }
 
-  /* line 222, ../sass/styles.scss */
+  /* line 228, ../sass/styles.scss */
   .fhours {
     padding-left: 0;
   }

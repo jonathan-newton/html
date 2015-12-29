@@ -8,6 +8,7 @@
  */
 ?>
 <div class="announcement">
+	<div class="anndiv">
 	<?php if (!empty($title)): ?>
   		<h3 class="ann"><?php print $title; ?></h3>
 	<?php endif; ?>
@@ -17,4 +18,5 @@
     		<?php print $row; ?>
  		</div>
 <?php endforeach; ?>
+</div>
 </div>
