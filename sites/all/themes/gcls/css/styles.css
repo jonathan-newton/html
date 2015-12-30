@@ -114,8 +114,8 @@ audio:not([controls]) {
  */
 /* line 106, ../sass/_normalize.scss */
 html {
-  font-family: Arial;
-  /*font-family: "Lato", Georgia, sans-serif;
+  
+  font-family: "Lato", Georgia, sans-serif;
   /* 1 */
   font-size: 100%;
   /* 3 */
