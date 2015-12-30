@@ -1832,7 +1832,7 @@ h3 {
 /*HEADER STYLES*/
 /* line 65, ../sass/styles.scss */
 #header {
-  /*background-color: #E2E1E9;*/
+  background-color: #E2E1E9;
   width: 100%;
   padding-left: 0em;
   padding-right: 16px;
@@ -1911,7 +1911,7 @@ h3 {
 
 /* line 135, ../sass/styles.scss */
 .bluebar {
-  background-color: #0084CB;
+  /*background-color: #0084CB;*/
   width: 100%;
   padding: 0;
   padding-right: 1em;
