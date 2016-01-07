@@ -1,4 +1,4 @@
-
+<script>
    function searchEncore(){
         var encoreBaseURLInput,encoreBaseURL, searchInput, scopeInput, searchString, scopeString, locationHref, charRegExString, base64Regex;
        /*base64_encoding_map includes special characters that need to be
@@ -45,3 +45,4 @@
         }
         return false;
     }
+</script>
