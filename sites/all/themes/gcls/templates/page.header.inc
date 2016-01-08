@@ -34,7 +34,9 @@ return false;
 </div>
 
 <div class="searcharea">
+  <script>
   <?php include('catsearch.js'); ?>
+  </script>
   <form name="form1"> 
     <!-- REQUIRED with id="encoreSearchInput" -->
     <label for="encoreSearchInput" class="nodisplay">Search</label>

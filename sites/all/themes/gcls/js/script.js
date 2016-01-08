@@ -19,6 +19,7 @@ Drupal.behaviors.my_custom_behavior = {
 
     // Place your code here.
 
+
   }
 };
 
